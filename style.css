@@ -5,7 +5,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	color: #95a5a6;
-	background-color: #34495e;
+	background-color:  #e6eaed;
 	text-align: center-left;
 }
 
@@ -13,7 +13,7 @@ h1 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 	font-weight: bolder;
 	font-style: normal;
-	color: #95a5a6;
+	color:  #118ff3;
 	/*background-color: teal;*/
 	text-align: center;
 	}
@@ -23,7 +23,7 @@ h2{
 	font-style: normal;
 	color: navy;
 	/*background-color: teal;*/
-	text-align: right;
+	text-align: center-left;
 	}
 p{
 	font-family: 'Open Sans', sans-serif;
@@ -43,9 +43,6 @@ table {
 	border-collapse: collapse;
 
 	}	
-tr:nth-child(even) {
-	background-color: #d6dbdf;
-	}
 th {
 	text-align: left;
 	min-width: 200px;
@@ -61,4 +58,51 @@ td {
 		content: "";
 		display: table;
 		clear: both;
+}
+#navbar {
+	background-color: navy;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	margin-top: 0;
+	top: 0px;
+}
+
+#navbar-container {
+	position: relative;
+	float: left;
+	left: 50%;
+	display: block;
+}
+
+#navbar-container ul {
+	position: relative;
+	float: left;
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	right: 50%;
+}
+#navbar-container ul li{
+	float: left;
+}
+#navbar-container li a:link, li a:visited {
+  background-color: #118ff3;
+  color: navy;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#navbar-comtainer a:hover, li a:active {
+  background-color: navy;
+  color: #118ff3;
+}
+.title{font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-weight: bolder;
+	font-style: normal;
+	color:  #118ff3;
+	/*background-color: teal;*/
+	text-align: center;
 }
