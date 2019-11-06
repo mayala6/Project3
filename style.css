@@ -1,64 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|ZCOOL+QingKe+HuangYou');
-
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	color: #95a5a6;
-	background-color:  #e6eaed;
-	text-align: center-left;
-	margin-left: 15em;
+	background-color: #e6eaed;
 }
 
 h1 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 	font-weight: bolder;
 	font-style: normal;
-	color:  #118ff3;
-	/*background-color: teal;*/
+	color: #118ff3;
+	font-size: 144px;
+	font-size-adjust: 100em;
 	text-align: center;
-	}
-h2{
-	font-family: 'ZCOOL QingKe HuangYou', cursive;
-	font-weight: bold;
-	font-style: normal;
+}
+h2 {
+	color: #118ff3;
+	font-weight:bold;
+	text-align:left;
+	margin-left: 10px;
+}
+p {
+	margin-left: 20px;
+	margin-right: 10px;
+	padding-left: 10px;
+	font-size: 20px;
 	color: navy;
-	/*background-color: teal;*/
-	text-align: center-left;
-	}
-p{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-style: normal;
+}
+a {
+	color: goldenrod;
+}
+a:visited {
 	color: navy;
-	text-align: left;
-	}
-img {
-	max-width: 300px;
-	max-height: auto;
-	width: 300px;
-	height: auto;
-	
-	}
-table {
-	border-collapse: collapse;
-
-	}	
-th {
-	text-align: left;
-	min-width: 200px;
-	}
-td {
-	text-align: right;
-	}
-.column {
-		float: left;
-		width: 50%;
-		}
-.row:after {
-		content: "";
-		display: table;
-		clear: both;
+}
+#navbar ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	color: navy;
+}
+.main {
+  margin-top: 72px;
 }
 #navbar {
 	background-color: navy;
@@ -89,24 +75,113 @@ td {
 	float: left;
 }
 #navbar-container li a:link, li a:visited {
-  background-color: #118ff3;
-  color: navy;
+  background-color: navy;
+  color: #118ff3;
   padding: 20px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
-#navbar-comtainer a:hover, li a:active {
+#navbar-container a:hover, li a:active {
+  background-color: #118ff3;
+  color: navy;
+}
+#nav-link {
+	margin-right: 0px;
+	margin-top: 0px;
+}
+#nav-link a:link, a:visited {
+  background-color: #118ff3;
+  color: navy;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:260px;
+}
+#nav-link a:hover, a:active {
+  background-color: #272727;
+  color: dodgerblue;
+}
+.paraleft {
+		text-align: left;
+}
+.paracenter {
+		text-align: center;
+}
+.pararight {
+		text-align: right;
+}
+.parajustify {
+		text-align: justify;
+}
+#showlist {
+	text-align: left;
+	float:right;
+	left: 50%;	
+}
+#showlist li a {
+	text-decoration: none;
+	color: dodgerblue;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+#showlist li {
+	color: black;
+}
+#showlist h4 a {
+	color: darkgoldenrod;
+	text-decoration:none;
+	
+}
+#link {
+	margin-right: 15px;
+	margin-top: 15px;
+}
+#link a:link, a:visited {
+  background-color: #118ff3;
+  color: navy;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:260px;
+}
+#link a:hover, a:active {
   background-color: navy;
   color: #118ff3;
+  font-weight: bold;
 }
-.title{font-family: 'ZCOOL QingKe HuangYou', cursive;
-	font-weight: bolder;
-	font-style: normal;
-	color:  #118ff3;
-	/*background-color: teal;*/
-	text-align: center;
+.resume p {
+		font-size: 12px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+		margin-bottom: 5px;
+		margin-top: 0px;
 }
-.main {
-  margin-top: 72px;
+.resume li {
+		font-size: 12px;
+		text-align: left;
+}
+.resume ul {
+	list-style: square;
+	padding: 10;
+	margin-left: 15px;
+}
+.resume h2 {
+		color: navy;
+		font-size: 16px;
+}
+.img1 img{
+	max-height: 108px;
+	max-width: 108px;
+	
+}
+.highlight {
+		background-color: yellow;
+}
+footer {
+		margin-left: 20px;
+		color: maroon;
 }
