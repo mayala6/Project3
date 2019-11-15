@@ -14,7 +14,6 @@ h1 {
 	font-style: normal;
 	color: #118ff3;
 	font-size: 144px;
-	font-size-adjust: 100em;
 	text-align: center;
 }
 h2 {
@@ -166,7 +165,7 @@ li {
 }
 .resume ul {
 	list-style: square;
-	padding: 10;
+	padding: 10px;
 	margin-left: 15px;
 }
 .resume h2 {
