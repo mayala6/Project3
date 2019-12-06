@@ -4,13 +4,15 @@
 
 	<head>
         <meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="normalize.css">
-		<script src="../js/noclick.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/normalize.css">
+		<link rel="stylesheet" type="text/css" href="style/slideshow.css">
+		<script src="js/noclick.js"></script>
+		<script src="js/slideshow.js"></script>
         <title>Manuel Ayala</title>		
 	</head>
 	<body>
-		<nav id="navbar">
+		<<nav id="navbar">
 		<div id="navbar-container">
 			<ul>
 				<li><a href="index.html" title="Resume">
@@ -21,6 +23,9 @@
 				</a></li>
 				<li><a href="page2.html" title="Background">
 					Background
+				</a></li>
+				<li><a href="maps.html" title="My Map">
+					My Map
 				</a></li>
 			</ul>
 		</div>
@@ -54,7 +59,25 @@
 			<div class="img1"><img src="../docs/family.jpg" alt="family">
 			<img src="../docs/couple.jpg" alt="couple">
 			<img src="../docs/police.jpg" alt="police"></div>
-		
+		<p> Here is a slide show of some of my pictures:</p>
+		<div id="slide">
+			<div class="slideshow-container">
+			<div class="mySlides fade"> <img src="docs/shield.jpg" style="width:100%"> </div>
+			<div class="mySlides fade"> <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%"> </div>
+			<div class="mySlides fade"> <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%"> </div>
+			<div class="mySlides fade"> <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%"> </div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
+				<br>
+			<div style="text-align:center"> 
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+		</div>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb8U5svMtikhdAvP3lMlurMQzbwlhiOvg&callback=initMap"
+					type="text/javascript"></script>
+
 		</div>
 	</body>
 </html>
